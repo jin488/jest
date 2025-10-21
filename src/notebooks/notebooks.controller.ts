@@ -1,12 +1,6 @@
 // notebooks.controller.ts
 import {
-  Controller,
-  Get,
-  Post,
-  Body,
-  HttpException,
-  HttpStatus,
-} from '@nestjs/common';
+  Controller, Get, Post, Body, HttpException, HttpStatus,} from '@nestjs/common';
 import { NotebooksService } from './notebooks.service';
 import { CreateNotebookDto } from './dto/create-notebook.dto';
 import { Notebook } from './entities/notebook.entity';
